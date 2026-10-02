@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lamin · Code Alchemist</title>
+<meta name="description" content="Lamin — Full-Stack Developer portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cursor"></div>
+<div class="aurora"></div>
+
+<nav class="nav glass" id="nav">
+  <a href="#hero" class="logo">&lt;Lamin/&gt;</a>
+  <div class="links">
+    <a href="#about"><span>About</span></a>
+    <a href="#skills"><span>Skills</span></a>
+    <a href="#projects"><span>Projects</span></a>
+    <a href="#contact"><span>Contact</span></a>
+  </div>
+</nav>
+
+<header id="hero" class="hero">
+  <canvas id="c-hero"></canvas>
+  <div class="glass hero-card tilt" data-d="14">
+    <p class="eyebrow">Code Alchemist</p>
+    <h1>Lamin</h1>
+    <p class="tag">Full-Stack Developer · Crafting the future, one line at a time.</p>
+    <div class="btns">
+      <a class="btn" href="#about">Explore My Work</a>
+      <a class="btn ghost" href="https://github.com/lamin-sudo" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="sec">
+  <h2 class="rv">About <b>Me</b></h2>
+  <div class="glass about tilt rv" data-d="8">
+    <p>I'm Lamin, a full-stack developer who turns ideas into living software — blending logic, design and a little alchemy.</p>
+    <div class="groups">
+      <div><h3>What I Love</h3><span class="chip">Programming</span><span class="chip">AI</span><span class="chip">Web Development</span></div>
+      <div><h3>What I'm Learning</h3><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">Node.js</span></div>
+      <div><h3>What I Can Do</h3><span class="chip">Web Development</span><span class="chip">Databases</span><span class="chip">Git</span></div>
+      <div><h3>Languages I Speak</h3><span class="chip">Arabic</span><span class="chip">English</span><span class="chip">French</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2 class="rv">My <b>Skills</b></h2>
+  <div class="skills-wrap rv">
+    <canvas id="c-skills"></canvas>
+    <div class="glass skill-info" id="skill-info"><h3>Click a skill</h3><p>Tap any orbiting label to inspect it.</p></div>
+  </div>
+</section>
+
+<section id="projects" class="sec">
+  <h2 class="rv">Featured <b>Projects</b></h2>
+  <p class="hint rv">Drag to spin · hover to lift</p>
+  <div class="stage rv" id="stage">
+    <div class="ring" id="ring">
+      <article class="pcard"><div class="pin glass"><h3>Project One</h3><p>A full-stack web app with a clean API and database.</p><div><span class="chip">Node.js</span><span class="chip">DB</span></div><a href="https://github.com/lamin-sudo" target="_blank" rel="noopener">View →</a></div></article>
+      <article class="pcard"><div class="pin glass"><h3>Project Two</h3><p>An interactive React interface with live data.</p><div><span class="chip">React</span><span class="chip">JS</span></div><a href="https://github.com/lamin-sudo" target="_blank" rel="noopener">View →</a></div></article>
+      <article class="pcard"><div class="pin glass"><h3>AI Experiment</h3><p>Exploring AI-powered tools for developers.</p><div><span class="chip">AI</span><span class="chip">JS</span></div><a href="https://github.com/lamin-sudo" target="_blank" rel="noopener">View →</a></div></article>
+      <article class="pcard"><div class="pin glass"><h3>3D Playground</h3><p>Creative WebGL scenes built with Three.js.</p><div><span class="chip">Three.js</span><span class="chip">CSS</span></div><a href="https://github.com/lamin-sudo" target="_blank" rel="noopener">View →</a></div></article>
+      <article class="pcard"><div class="pin glass"><h3>Git Toolkit</h3><p>Workflow scripts and tooling for cleaner repos.</p><div><span class="chip">Git</span><span class="chip">CLI</span></div><a href="https://github.com/lamin-sudo" target="_blank" rel="noopener">View →</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="journey" class="sec">
+  <h2 class="rv">My <b>Journey</b></h2>
+  <div class="tl">
+    <div class="ms rv"><i class="node">2023</i><div class="glass"><h3>First Line of Code</h3><p>Fell in love with programming.</p></div></div>
+    <div class="ms rv"><i class="node">2024</i><div class="glass"><h3>Web &amp; Git</h3><p>Built sites, learned databases and version control.</p></div></div>
+    <div class="ms rv"><i class="node">2025</i><div class="glass"><h3>JS · React · Node</h3><p>Went deep on the modern JavaScript stack.</p></div></div>
+    <div class="ms rv"><i class="node">2026</i><div class="glass"><h3>Full-Stack &amp; AI</h3><p>Shipping end-to-end products, exploring AI.</p></div></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <canvas id="c-portal"></canvas>
+  <div class="cwrap rv">
+    <h2>Step Through the <b>Portal</b></h2>
+    <a class="btn big" id="mag" href="https://github.com/lamin-sudo" target="_blank" rel="noopener">Let's Build Something</a>
+    <div class="clinks">
+      <a class="glass" href="https://github.com/lamin-sudo" target="_blank" rel="noopener">GitHub</a>
+      <a class="glass" href="mailto:you@example.com">Email</a>
+      <a class="glass" href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="glass foot">
+  <div class="fgrid">
+    <div><a class="fname" href="#hero">Lamin</a> · Full-Stack Developer</div>
+    <div class="fl"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+    <div>Powered by Three.js · Hosted on GitHub Pages</div>
+  </div>
+  <p class="copy">© 2027 Lamin — Crafted with code and curiosity.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

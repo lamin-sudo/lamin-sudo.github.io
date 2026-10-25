@@ -28,7 +28,7 @@ const ROWS = [
   { k: "role",     v: "full-stack developer" },
   { k: "stack",    v: "js · react · node" },
   { k: "projects", v: "", auto: "projects" },
-  { k: "langs",    v: "ar · en · fr" },
+  { k: "langs",    v: "ar · en · fr · ru" },
   { k: "email",    v: EMAIL, copy: true }
 ];
 
@@ -96,6 +96,15 @@ const PROJECTS = [
     live: "https://dz-gsmdz.blogspot.com/",
     repo: "",
     shot: ""
+  },
+  {
+    name: "VaultKey",
+    alt: "فولت كي",
+    desc: "Android password vault — official site with privacy policy, terms, support and APK downloads.",
+    tags: ["Android", "Security", "Passwords"],
+    live: "https://hadji.is-a.dev/vaultkey-site",
+    repo: "https://github.com/lamin-sudo/vaultkey-site",
+    shot: ""
   }
 ];
 
@@ -106,7 +115,7 @@ const SKILL_GROUPS = [
   { k: "i love",     v: ["Programming", "AI", "Web Development"] },
   { k: "learning",   v: ["JavaScript", "React", "Node.js"] },
   { k: "i can do",   v: ["Web Development", "Databases", "Git"] },
-  { k: "languages",  v: ["Arabic", "English", "French"] }
+  { k: "languages",  v: ["Arabic", "English", "French", "Russian"] }
 ];
 
 /* --------------------------------------------------------------------------

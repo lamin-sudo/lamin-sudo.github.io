@@ -1,7 +1,7 @@
 # Lamin — Portfolio
 
 A single-viewport, dark, snow-and-glass portfolio. Vanilla HTML/CSS/JS — no framework, no build step.
-Live: <https://lamin-sudo.github.io/>
+Live: <https://hadji.is-a.dev/>
 
 ## Run locally
 
@@ -72,4 +72,4 @@ manifest.json       PWA manifest
 
 Push to `main`; GitHub Pages serves the repo root. `robots.txt`, `sitemap.xml`,
 `manifest.json` and the JSON-LD `Person` block in `index.html` are already wired to
-`https://lamin-sudo.github.io/`.
+`https://hadji.is-a.dev/`.

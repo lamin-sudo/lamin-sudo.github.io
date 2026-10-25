@@ -9,7 +9,7 @@ const SITE = {
   headline: "Code Alchemist",
   blurb: "I turn ideas into living software — blending logic, design and a little alchemy.",
   foot: "lamin · press ` for terminal",
-  url: "https://lamin-sudo.github.io/",
+  url: "https://hadji.is-a.dev/",
   description: "Lamin — Full-Stack Developer. Android, web and AI products shipped end to end."
 };
 
